@@ -1,0 +1,12 @@
+Get the files from the supplimentary material of "Comprehensive Profiling of Four Base Overhang Ligation Fidelity by T4 DNA Ligase and Application to DNA Assembly" by Potatov et. al., 2018, ACS Synthetic Biology, https://doi.org/10.1021/acssynbio.8b00333
+
+https://pubs.acs.org/doi/suppl/10.1021/acssynbio.8b00333/suppl_file/sb8b00333_si_002.zip
+
+FileS04_T4_18h_37C.xlsx is the default option in OOGGA. You have to convert this file to a csv file in a program like Microsoft excel. 
+
+by default OOGGA.py looks for ./lib/FileS04_T4_18h_37C.csv
+
+You can change it via optional arguments
+
+
+
