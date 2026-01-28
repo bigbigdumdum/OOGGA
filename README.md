@@ -1,6 +1,6 @@
 # OOGGA
 
-Python3 scripts for oogga program
+Python3 scripts for oogga program from the preprint https://doi.org/10.1101/2025.06.16.659877 
 
 ./OOGGA.py fragments dna sequence optimaly for golden gate assembly
 
