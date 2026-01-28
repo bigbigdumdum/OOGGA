@@ -11,6 +11,8 @@ You can use the contents of this file under the conditions of Creative Commons A
 A copy of this deed in provided in the LICENSE.md file.
 
 You are free to copy, distribute, remix, transform and build upon this program as long as 1) it is for non commercial purpose, 2) Attributions are provided 3) Shared under the same license. 
+
+Please cite https://doi.org/10.1101/2025.06.16.659877 if you use this program
 '''
 
 def load_csv_table_as_di(file):
@@ -432,3 +434,4 @@ try:
     df.write_outfile(a.output)
 except Exception as e:
     print('Confused OOGGA booga:',e)
+
