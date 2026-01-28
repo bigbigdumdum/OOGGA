@@ -13,3 +13,5 @@ See python eval_frags.py -h for options
 ./comparison.zip contains outputs of comparisons for OOGGA and NEB SplitSet.
 
 ./lib/ contains the data files used from https://doi.org/10.1021/acssynbio.8b00333
+
+Please cite https://doi.org/10.1101/2025.06.16.659877 if you use this program.
