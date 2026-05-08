@@ -32,7 +32,7 @@ OOGGA requires a CSV scoring table from Potapov et al. 2018. Please use the data
 ```bash
 oogga -h 
 ```
-A normal example of splitting a plasmid into fragments of length range 500-1000
+An example of splitting a plasmid into fragments of length range 500-1000
 ```bash
 oogga inputplasmid.fasta 500 1500 output
 ```
