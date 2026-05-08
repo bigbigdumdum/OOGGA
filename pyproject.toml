@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oogga"
+version = "1.0.0"
+description = "Optimal Overhang Golden Gate Assembly - fragments DNA sequences for Golden Gate cloning"
+readme = "README.md"
+license = { file = "LICENSE.md" }
+authors = [
+    { name = "Mukundan S", email = "mukundan.kollam@gmail.com" }
+]
+keywords = ["bioinformatics", "golden-gate", "cloning", "DNA", "assembly", "synthetic-biology"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.8"
+dependencies = []   # pure stdlib - no external dependencies
+
+[project.urls]
+"Homepage" = "https://github.com/bigbigdumdum/OOGGA"
+"Bug Tracker" = "https://github.com/bigbigdumdum/OOGGA/issues"
+"Preprint" = "https://doi.org/10.1101/2025.06.16.659877"
+
+[project.scripts]
+oogga = "oogga.cli:main"
+eval-frags = "oogga.eval_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["oogga*"]
