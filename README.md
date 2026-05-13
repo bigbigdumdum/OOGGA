@@ -1,10 +1,10 @@
-# OOGGA — Optimal Overhang Golden Gate Assembly
+# Overhang Optimizer for golden gate assembly (OOGGA)
 
 Python package for fragmenting DNA sequences optimally for Golden Gate assembly cloning.
 
 How the OOGGA works and OOGGA citation:
 
-> Mukundan S. (2025). OOGGA. *bioRxiv*. https://doi.org/10.1101/2025.06.16.659877
+> Overhang Optimizer for Golden Gate Assembly (OOGGA) S. Mukundan, M. S. Madhusudhan bioRxiv 2025.06.16.659877; doi: https://doi.org/10.1101/2025.06.16.659877
 
 ---
 
